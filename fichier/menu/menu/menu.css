@@ -1,0 +1,115 @@
+#menu {
+	height: 28px;
+	margin: 15px 0;
+}
+#menu ul, #menu li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#menu li {
+	width: 150px;
+}	
+#menu li a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	border: 1px solid #fff;
+}
+/*---------- Niveau 1 ----------*/
+#menu .niveau1 li {
+	float: left;
+	margin: 0 -1px 0 0;
+}
+#menu .niveau1 li a {
+	padding: 5px 0;
+	height: 16px;
+	color: #fff;
+	background: #746756;
+}
+#menu .niveau1 li:hover a,
+#menu .niveau1 li a:hover {
+	color: #fff;
+	background: #6D8600;
+}
+/*---------- Niveau 2 ----------*/
+#menu .niveau2 {
+	position: absolute;
+	top: -9999em;
+}
+#menu .niveau2 li {
+	clear: left;
+	margin: -1px 0 0;
+}
+#menu .niveau2 li a {
+	color: #fff;
+	background: #6D8600;
+}
+#menu .niveau2 li a:hover {
+	color: #746756;
+	background: #D8ED1A;
+}
+#menu li:hover .niveau2,
+#menu .sfhover .niveau2 {
+	top: auto;
+	min-height: 0; /* corrige un bug IE7 */
+}
+/*---------- Niveau 3 ----------*/
+#menu .niveau1 .niveau2 .niveau3 {
+	position: absolute;	
+	top: -9999em;
+	border-top: 1px solid #fff; /* corrige un bug IE6 */
+}
+#menu .niveau3 li a {
+	color: #fff;
+	background: #6D8600;
+}
+#menu .niveau3 li:hover a,
+#menu .niveau3 li a:hover {
+	color: #746756;
+	background: #D8ED1A;
+}
+#menu .niveau2 li:hover .niveau3,
+#menu .niveau2 .sfhover .niveau3 {	
+	top: auto;
+	margin:-28px 0 0 149px;
+}
+#menu .inverse .niveau2 li:hover .niveau3,
+#menu .inverse .niveau2 .sfhover .niveau3 {	
+	top: auto;
+	margin:-28px 0 0 -149px;
+}
+
+/*---------- Pour un menu extensible ----------*/
+
+/*
+#menu ul, #menu li {
+	width:auto;
+}
+#menu .niveau1 li, #menu .niveau2 {
+	width: 25%; 
+}
+#menu .niveau2 li {
+	width:100%; 
+}
+#menu .niveau2 li:hover .niveau3,
+#menu .niveau2 .sfhover .niveau3 {
+	margin:-28px 0 0 100%; 
+}
+#menu .inverse .niveau2  li:hover .niveau3,
+#menu .inverse .niveau2 .sfhover .niveau3  {
+	margin:-28px 0 0 -100%;	
+}
+#menu .niveau3 {
+	width: 100%;  
+}
+*/
+
+/* 
+#menu .niveau1 li, #menu .niveau2 {
+	width: 25%; <-- 100% divisé par le nombre de menus
+}
+#menu .niveau2 li {
+	width:100%; <-- largeur du menu par rapport à la fenêtre 
+}
+*/

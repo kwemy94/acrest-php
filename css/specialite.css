@@ -1,0 +1,534 @@
+/***************************************************************************
+**                                                                       ***
+**          Action individuelle Commune à toutes les spécilité           ***
+**                                                                       ***
+***************************************************************************/
+#image img{
+	/*height: 400px;*/
+	width: 100%;
+	border-radius: 12px;
+}
+#bloc_masquer_batiment, #bloc_masquer_travaux_public, #bloc_masquer_urbanisme, #bloc_masquer_menusierie, #bloc_masquer_electrotechnique, #bloc_masquer_energie_renouvelable,
+#bloc_masquer_construction, #bloc_masquer_fabrication, #bloc_masquer_meca_auto, #bloc_masquer_geni_log, #bloc_masquer_maintenance_info, #bloc_masquer_aquaculture,
+#bloc_masquer_prod_animale, #bloc_masquer_prod_vegetale, #bloc_masquer_gestion_env, #bloc_masquer_ind_alimentaire, #bloc_masquer_marketing, #bloc_masquer_hydro_traitement,
+#bloc_masquer_ind_textile, #bloc_masquer_sage_femme, #bloc_masquer_odontostomatologie, #bloc_masquer_comptabilite, #bloc_masquer_gestion_projet, #bloc_masquer_logistique,
+#bloc_masquer_microfinance, #bloc_masquer_collectivite, #bloc_masquer_science_infirmiere{
+   display:none;
+   background: #ddd;
+   border-radius: 6px;
+}
+
+/***************************************************************************
+**                                                                       ***
+**          Action individuelle batiment                                 ***
+**                                                                       ***
+***************************************************************************/
+
+#row_tech_batiment:target #bloc_masquer_batiment {
+   display:block
+}
+.masquer {
+   display:none;
+}
+#row_tech_batiment:target .masquer {
+   display:inline;
+}
+#row_tech_batiment:target .afficher {
+   display:none;
+}
+
+
+/******************************************************************************
+**                                                                          ***
+**               Action individuelle travaux publique                       ***
+**                                                                          ***
+******************************************************************************/
+
+#row_tech_travaux_public:target #bloc_masquer_travaux_public {
+   display:block
+}
+.masquer_travaux_public {
+   display:none;
+}
+#row_tech_travaux_public:target .masquer_travaux_public {
+   display:inline;
+}
+#row_tech_travaux_public:target .afficher_travaux_public {
+   display:none;
+}
+
+/******************************************************************************
+**                                                                          ***
+**               Action individuelle urbanisme                               ***
+**                                                                          ***
+******************************************************************************/
+
+#row_tech_urbanisme:target #bloc_masquer_urbanisme {
+   display:block
+}
+.masquer_urbanisme{
+   display:none;
+}
+#row_tech_urbanisme:target .masquer_urbanisme {
+   display:inline;
+}
+#row_tech_urbanisme:target .afficher_urbanisme {
+   display:none;
+}
+
+/******************************************************************************
+**                                                                          ***
+**               Action individuelle menusierie                               ***
+**                                                                          ***
+******************************************************************************/
+
+#row_tech_menusierie:target #bloc_masquer_menusierie {
+   display:block
+}
+.masquer_menusierie{
+   display:none;
+}
+#row_tech_menusierie:target .masquer_menusierie {
+   display:inline;
+}
+#row_tech_menusierie:target .afficher_menusierie {
+   display:none;
+}
+
+
+/***************************************************************************
+**                                                                       ***
+**          Action individuelle electrotechnique                         ***
+**                                                                       ***
+***************************************************************************/
+
+#row_tech_electrotechnique:target #bloc_masquer_electrotechnique {
+   display:block
+}
+.masquer_electrotechnique {
+   display:none;
+}
+#row_tech_electrotechnique:target .masquer_electrotechnique {
+   display:inline;
+}
+#row_tech_electrotechnique:target .afficher_electrotechnique {
+   display:none;
+}
+
+/***************************************************************************
+**                                                                       ***
+**          Action individuelle energie renouvelables                    ***
+**                                                                       ***
+***************************************************************************/
+
+#row_tech_energie_renouvelable:target #bloc_masquer_energie_renouvelable {
+   display:block
+}
+.masquer_energie_renouvelable {
+   display:none;
+}
+#row_tech_energie_renouvelable:target .masquer_energie_renouvelable {
+   display:inline;
+}
+#row_tech_energie_renouvelable:target .afficher_energie_renouvelable {
+   display:none;
+}
+
+/***************************************************************************
+**                                                                       ***
+**          Action individuelle Contruction métallique                   ***
+**                                                                       ***
+***************************************************************************/
+
+#row_tech_construction:target #bloc_masquer_construction{
+   display:block
+}
+.masquer_construction {
+   display:none;
+}
+#row_tech_construction:target .masquer_construction {
+   display:inline;
+}
+#row_tech_construction:target .afficher_construction {
+   display:none;
+}
+
+/***************************************************************************
+**                                                                       ***
+**          Action individuelle construction & fabriction mécanique                   ***
+**                                                                       ***
+***************************************************************************/
+
+#row_tech_fabrication:target #bloc_masquer_fabrication{
+   display:block
+}
+.masquer_fabrication {
+   display:none;
+}
+#row_tech_fabrication:target .masquer_fabrication {
+   display:inline;
+}
+#row_tech_fabrication:target .afficher_fabrication {
+   display:none;
+}
+
+/***************************************************************************
+**                                                                       ***
+**          Action individuelle Mecanique et electronique auto           ***
+**                                                                       ***
+***************************************************************************/
+
+#row_tech_meca_auto:target #bloc_masquer_meca_auto{
+   display:block
+}
+.masquer_meca_auto {
+   display:none;
+}
+#row_tech_meca_auto:target .masquer_meca_auto {
+   display:inline;
+}
+#row_tech_meca_auto:target .afficher_meca_auto {
+   display:none;
+}
+
+/***************************************************************************
+**                                                                       ***
+**          Action individuelle Génie logiciel                           ***
+**                                                                       ***
+***************************************************************************/
+
+#row_tech_geni_log:target #bloc_masquer_geni_log{
+   display:block
+}
+.masquer_geni_log {
+   display:none;
+}
+#row_tech_geni_log:target .masquer_geni_log {
+   display:inline;
+}
+#row_tech_geni_log:target .afficher_geni_log {
+   display:none;
+}
+
+/***************************************************************************
+**                                                                       ***
+**          Action individuelle Maintenance des systemes informatiques   ***
+**                                                                       ***
+***************************************************************************/
+
+#row_tech_maintenance_info:target #bloc_masquer_maintenance_info{
+   display:block
+}
+.masquer_maintenance_info {
+   display:none;
+}
+#row_tech_maintenance_info:target .masquer_maintenance_info {
+   display:inline;
+}
+#row_tech_maintenance_info:target .afficher_maintenance_info {
+   display:none;
+}
+
+/***************************************************************************
+**                                                                       ***
+**          Action individuelle aquaculture                              ***
+**                                                                       ***
+***************************************************************************/
+
+#row_tech_aquaculture:target #bloc_masquer_aquaculture{
+   display:block
+}
+.masquer_aquaculture {
+   display:none;
+}
+#row_tech_aquaculture:target .masquer_aquaculture {
+   display:inline;
+}
+#row_tech_aquaculture:target .afficher_aquaculture {
+   display:none;
+}
+
+/***************************************************************************
+**                                                                       ***
+**          Action individuelle production animale                       ***
+**                                                                       ***
+***************************************************************************/
+
+#row_tech_prod_animale:target #bloc_masquer_prod_animale{
+   display:block
+}
+.masquer_prod_animale {
+   display:none;
+}
+#row_tech_prod_animale:target .masquer_prod_animale {
+   display:inline;
+}
+#row_tech_prod_animale:target .afficher_prod_animale {
+   display:none;
+}
+
+/***************************************************************************
+**                                                                       ***
+**          Action individuelle production Végétale                       ***
+**                                                                       ***
+***************************************************************************/
+
+#row_tech_prod_vegetale:target #bloc_masquer_prod_vegetale{
+   display:block
+}
+.masquer_prod_vegetale {
+   display:none;
+}
+#row_tech_prod_vegetale:target .masquer_prod_vegetale {
+   display:inline;
+}
+#row_tech_prod_vegetale:target .afficher_prod_vegetale {
+   display:none;
+}
+
+/***************************************************************************
+**                                                                       ***
+**          Action individuelle Gestion de l'environnement               ***
+**                                                                       ***
+***************************************************************************/
+
+#row_tech_gestion_env:target #bloc_masquer_gestion_env{
+   display:block
+}
+.masquer_gestion_env {
+   display:none;
+}
+#row_tech_gestion_env:target .masquer_gestion_env {
+   display:inline;
+}
+#row_tech_gestion_env:target .afficher_gestion_env {
+   display:none;
+}
+
+/***************************************************************************
+**                                                                       ***
+**          Action individuelle industrie alimentaire                    ***
+**                                                                       ***
+***************************************************************************/
+
+#row_tech_ind_alimentaire:target #bloc_masquer_ind_alimentaire{
+   display:block
+}
+.masquer_ind_alimentaire {
+   display:none;
+}
+#row_tech_ind_alimentaire:target .masquer_ind_alimentaire {
+   display:inline;
+}
+#row_tech_ind_alimentaire:target .afficher_ind_alimentaire {
+   display:none;
+}
+
+/***************************************************************************
+**                                                                       ***
+**          Action individuelle Marketing commerce vente                    ***
+**                                                                       ***
+***************************************************************************/
+
+#row_tech_marketing:target #bloc_masquer_marketing{
+   display:block
+}
+.masquer_marketing {
+   display:none;
+}
+#row_tech_marketing:target .masquer_marketing {
+   display:inline;
+}
+#row_tech_marketing:target .afficher_marketing {
+   display:none;
+}
+
+/***************************************************************************
+**                                                                       ***
+**          Action individuelle Hydraulique et traitement des eaux       ***
+**                                                                       ***
+***************************************************************************/
+
+#row_tech_hydro_traitement:target #bloc_masquer_hydro_traitement{
+   display:block
+}
+.masquer_hydro_traitement {
+   display:none;
+}
+#row_tech_hydro_traitement:target .masquer_hydro_traitement {
+   display:inline;
+}
+#row_tech_hydro_traitement:target .afficher_hydro_traitement {
+   display:none;
+}
+
+/***************************************************************************
+**                                                                       ***
+**          Action individuelle industrie textile                        ***
+**                                                                       ***
+***************************************************************************/
+
+#row_tech_ind_textile:target #bloc_masquer_ind_textile{
+   display:block
+}
+.masquer_ind_textile {
+   display:none;
+}
+#row_tech_ind_textile:target .masquer_ind_textile {
+   display:inline;
+}
+#row_tech_ind_textile:target .afficher_ind_textile {
+   display:none;
+}
+
+/***************************************************************************
+**                                                                       ***
+**          Action individuelle Sage femme                                ***
+**                                                                       ***
+***************************************************************************/
+
+#row_tech_sage_femme:target #bloc_masquer_sage_femme{
+   display:block
+}
+.masquer_sage_femme {
+   display:none;
+}
+#row_tech_sage_femme:target .masquer_sage_femme {
+   display:inline;
+}
+#row_tech_sage_femme:target .afficher_sage_femme {
+   display:none;
+}
+
+/***************************************************************************
+**                                                                       ***
+**          Action individuelle odontostomatologie                       ***
+**                                                                       ***
+***************************************************************************/
+
+#row_tech_odontostomatologie:target #bloc_masquer_odontostomatologie{
+   display:block
+}
+.masquer_odontostomatologie {
+   display:none;
+}
+#row_tech_odontostomatologie:target .masquer_odontostomatologie {
+   display:inline;
+}
+#row_tech_odontostomatologie:target .afficher_odontostomatologie {
+   display:none;
+}
+
+/***************************************************************************
+**                                                                       ***
+**          Action individuelle comptabilité                             ***
+**                                                                       ***
+***************************************************************************/
+
+#row_tech_comptabilite:target #bloc_masquer_comptabilite{
+   display:block
+}
+.masquer_comptabilite {
+   display:none;
+}
+#row_tech_comptabilite:target .masquer_comptabilite {
+   display:inline;
+}
+#row_tech_comptabilite:target .afficher_comptabilite {
+   display:none;
+}
+
+/***************************************************************************
+**                                                                       ***
+**          Action individuelle gestion projet                           ***
+**                                                                       ***
+***************************************************************************/
+
+#row_tech_gestion_projet:target #bloc_masquer_gestion_projet{
+   display:block
+}
+.masquer_gestion_projet {
+   display:none;
+}
+#row_tech_gestion_projet:target .masquer_gestion_projet {
+   display:inline;
+}
+#row_tech_gestion_projet:target .afficher_gestion_projet {
+   display:none;
+}
+
+/***************************************************************************
+**                                                                       ***
+**          Action individuelle logistique                               ***
+**                                                                       ***
+***************************************************************************/
+
+#row_tech_logistique:target #bloc_masquer_logistique{
+   display:block
+}
+.masquer_logistique {
+   display:none;
+}
+#row_tech_logistique:target .masquer_logistique {
+   display:inline;
+}
+#row_tech_logistique:target .afficher_logistique {
+   display:none;
+}
+
+/***************************************************************************
+**                                                                       ***
+**          Action individuelle microfinance                             ***
+**                                                                       ***
+***************************************************************************/
+
+#row_tech_microfinance:target #bloc_masquer_microfinance{
+   display:block
+}
+.masquer_microfinance {
+   display:none;
+}
+#row_tech_microfinance:target .masquer_microfinance {
+   display:inline;
+}
+#row_tech_microfinance:target .afficher_microfinance {
+   display:none;
+}
+
+/***************************************************************************
+**                                                                       ***
+**          Action individuelle collectivité                             ***
+**                                                                       ***
+***************************************************************************/
+
+#row_tech_collectivite:target #bloc_masquer_collectivite{
+   display:block
+}
+.masquer_collectivite {
+   display:none;
+}
+#row_tech_collectivite:target .masquer_collectivite {
+   display:inline;
+}
+#row_tech_collectivite:target .afficher_collectivite {
+   display:none;
+}
+
+/***************************************************************************
+**                                                                       ***
+**          Action individuelle science infirmiere                       ***
+**                                                                       ***
+***************************************************************************/
+
+#row_tech_science_infirmiere:target #bloc_masquer_science_infirmiere{
+   display:block
+}
+.masquer_science_infirmiere {
+   display:none;
+}
+#row_tech_science_infirmiere:target .masquer_science_infirmiere {
+   display:inline;
+}
+#row_tech_science_infirmiere:target .afficher_science_infirmiere {
+   display:none;
+}

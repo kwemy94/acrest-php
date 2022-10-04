@@ -1,0 +1,59 @@
+#container_menu{
+	width: 100%;
+	padding: 1px;
+	/*position: fixed;*/
+    /*top: 10px;  non-obligatoire*/
+    background-color: black;
+    z-index: 1;
+    /*transition: 0.4s;*/
+
+}
+#row_menu{
+	width: 100%;
+}
+#menu{
+	width: 100%;
+}
+
+#menu ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	text-align: center;
+}
+#menu li{
+	float: left;
+	margin: auto;
+	padding: 0px;
+    background-color: black;   
+}
+#menu li a{
+	display: block;
+	width: 150px;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	font-size: 20px;
+}
+#menu li a:hover{
+	color: #ccff00;
+}
+#menu ul li ul{
+	display: none;                   /* Faire disparaitre le sous menu */
+}
+
+/* Remettre en verticale le sous menu et faire en sorte qu'on survol du menu 'formation',  le menu se deroule*/
+
+#menu ul li:hover ul{
+	display: block;
+	z-index: 4;                 /* Permet de fixer le menu déroulant au premier plan*/
+}
+#menu li:hover ul li{
+	float: none;
+}
+#menu li ul{
+	position: absolute;
+}
+#menu ul li ul li a{
+	width: 235px;
+}

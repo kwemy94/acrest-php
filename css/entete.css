@@ -1,0 +1,14 @@
+#header {
+	width:95%;
+	text-align: center;
+}
+#header img{
+	width: 95%;
+	padding: 8px;
+}
+
+@media(max-width: 767px){
+	#logo img{
+		height: 80px;
+	}
+}

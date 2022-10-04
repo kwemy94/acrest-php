@@ -1,0 +1,45 @@
+#footer {
+	 background-color: #CCFF00;
+	line-height: 40px;
+	text-align: center;
+	color:white;
+	width:100%;
+	margin :0px;
+	padding :0px;
+	
+}
+#frow{
+	 background-color:;
+	
+	margin:0px;
+}
+
+.fs,a{
+	color:rgb(100,190,255);
+	font-size: 16px;
+}
+.fs h4{
+	font-size: 16px;
+}
+
+#footer h2{
+	color: black;
+	text-shadow: 0px 1px black;
+	font-size: 18px;
+}
+#footer #newsletter input{
+	height: 25px;
+	border-radius: 5px;
+	color: black;
+	text-align: center
+}
+#footer #newsletter button[id='bouton']{
+	height: 25px;
+	border-radius: 5px;
+}
+
+@media(max-width: 767Px){
+	#footer #newsletter {
+		/*display: none;      Permet de msaquer la partie concernée */
+	}
+}

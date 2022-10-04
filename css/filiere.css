@@ -1,0 +1,23 @@
+#filiere{
+
+}
+#filiere{
+    text-align: center;	
+	padding: 25px 75px ;
+	font-size: 16px;
+}
+#filiere ul a{
+	font-size: 16px;
+	color: rgb(0,162,232);
+	font-style: italic;
+	font-weight: bold;
+}
+#filiere a{
+	font-size: 16px;
+	color: rgb(0,162,232);
+	font-style: italic;
+	font-weight: bold;
+}
+#filiere ul a:hover{
+	color: rgb(100, 190,255);
+}

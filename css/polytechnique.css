@@ -1,0 +1,29 @@
+#contenu_mobile{
+	/*background-color: rgb(243,243,243);*/
+}
+#poly{
+	width: 100%;
+}
+#poly .row{
+	width: 100%;
+}
+#menu_poly{
+	/*text-align: center;*/
+	background-color: rgb(243,243,243);
+	/*padding: 50px;*/
+}
+#menu_poly button{
+	display: block;
+	padding: 10px;
+}
+#menu_poly button a:hover{
+	/*background-color: #ccff00;*/
+}
+@media(max-width: 767px){
+	#menu_poly{
+
+	}
+	#contenu_mobile{
+		background-color: rgb(243,243,243);
+	}
+}

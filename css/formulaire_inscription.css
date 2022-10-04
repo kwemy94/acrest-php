@@ -1,0 +1,65 @@
+
+fieldset{
+	
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	border: solid rgb(131,131,131);
+	border-radius: 10px;
+}
+
+#form_inscription input{
+	padding-right: 80px;
+	text-align: center;
+	width: 300px;
+	height: 40px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-width: 3px;
+	border-color: rgb(15, 15, 15);
+	font-weight: bold;
+	font-size: 16px;
+	color: black;
+	background-color: rgb(131,131,131);
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+#form_inscription div select{
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	font-weight: bold;
+	text-align: center;
+	width: 300px;
+	height: 40px;
+	font-size: 16px;
+	margin-bottom: 15px;
+	background-color: rgb(131,131,131);
+	border-radius: 10px;
+}
+#form_inscription{
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.6);
+	border-radius: 10px;
+}
+#form_inscription input[value]{
+	border-radius: 10px;
+	margin-left: 50px;
+	background-color: rgb(131,131,131);
+	width: 100px;
+}
+#form_inscription input[value]:hover{
+	background-color: #ccff00;
+}
+legend{
+	font-size: 30px;
+	font-weight: bold;
+	border-bottom: none;
+	margin-left: 37%;
+}
